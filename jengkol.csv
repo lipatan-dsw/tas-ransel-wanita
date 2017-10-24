@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,product,price,sku,kondisi
-Jual Tas Ransel / Backpack Wanita - SA 002 Murah,tas-ransel-backpack-wanita-sa-002,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
+Jual Tas Ransel / Backpack Casual Wanita - SF 009 Murah,tas-ransel-backpack-casual-wanita-sf-009,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,6 +24,7 @@ Jual Tas Ransel / Backpack Wanita - SA 002 Murah,tas-ransel-backpack-wanita-sa-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -46,8 +47,17 @@ Jual Tas Ransel / Backpack Wanita - SA 002 Murah,tas-ransel-backpack-wanita-sa-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel / Backpack Wanita - SA 002 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : SA 002<br/>Warna : COKLAT<br/>Bahan : SYNTHETIC<br/>Ukuran : 35X34X10<br/>Berat : 0.72 kg<br>
+         <p>Tas Ransel / Backpack Casual Wanita - SF 009 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : SF 009<br/>Warna : KUNING<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.6 kg<br/>Info Lainnya = 25 X 34 X 12<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -61,8 +71,8 @@ Jual Tas Ransel / Backpack Wanita - SA 002 Murah,tas-ransel-backpack-wanita-sa-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan SYNTHETIC, Ukuran 35X34X10, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/419-sa-002.jpg,Tas Ransel / Backpack Wanita - SA 002,Rp 106.900,SA 002,Baru
-Jual Tas Ransel / Backpack Wanita - KH 009 Murah,tas-ransel-backpack-wanita-kh-009,"
+     </div><!--/category-tab-->",2017-10-16,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan SINTETIS, Ukuran AS, Warna KUNING",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/363-sf-009.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/sf-009-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/sf-009-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/sf-009-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/sf-009-d.jpg,/,Tas Ransel / Backpack Casual Wanita - SF 009,Rp 151.900,Rp 177.900,Rp 26.000,SF 009,Baru
+Jual Tas Ransel / Backpack Casual Wanita - TP 025 Murah,tas-ransel-backpack-casual-wanita-tp-025,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -87,6 +97,7 @@ Jual Tas Ransel / Backpack Wanita - KH 009 Murah,tas-ransel-backpack-wanita-kh-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -109,8 +120,17 @@ Jual Tas Ransel / Backpack Wanita - KH 009 Murah,tas-ransel-backpack-wanita-kh-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel / Backpack Wanita - KH 009 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : KH 009<br/>Warna : HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 22X28X9<br/>Berat : 0.72 kg<br>
+         <p>Tas Ransel / Backpack Casual Wanita - TP 025 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : TP 025<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.6 kg<br/>Info Lainnya = 30 X 37 X 8<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -124,8 +144,8 @@ Jual Tas Ransel / Backpack Wanita - KH 009 Murah,tas-ransel-backpack-wanita-kh-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan SYNTHETIC, Ukuran 22X28X9, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/421-kh-009.jpg,Tas Ransel / Backpack Wanita - KH 009,Rp 112.900,KH 009,Baru
-Jual Tas Ransel / Backpack Wanita - RH 619 Murah,tas-ransel-backpack-wanita-rh-619,"
+     </div><!--/category-tab-->",2017-10-16,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan SINTETIS, Ukuran AS, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/364-tp-025.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tp-025-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tp-025-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tp-025-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tp-025-d.jpg,/,Tas Ransel / Backpack Casual Wanita - TP 025,Rp 106.900,Rp 125.900,Rp 19.000,TP 025,Baru
+Jual Tas Ransel / Backpack Casual Wanita - RZ 014 Murah,tas-ransel-backpack-casual-wanita-rz-014,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -150,6 +170,7 @@ Jual Tas Ransel / Backpack Wanita - RH 619 Murah,tas-ransel-backpack-wanita-rh-6
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -172,8 +193,17 @@ Jual Tas Ransel / Backpack Wanita - RH 619 Murah,tas-ransel-backpack-wanita-rh-6
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel / Backpack Wanita - RH 619 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : RH 619<br/>Warna : HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 28X28X12<br/>Berat : 0.72 kg<br>
+         <p>Tas Ransel / Backpack Casual Wanita - RZ 014 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan ANILINE.<br/>Kode : RZ 014<br/>Warna : ABU ABU<br/>Bahan : ANILINE<br/>Ukuran : AS<br/>Berat : 0.6 kg<br/>Info Lainnya = 24 X 26 X 10<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -187,8 +217,8 @@ Jual Tas Ransel / Backpack Wanita - RH 619 Murah,tas-ransel-backpack-wanita-rh-6
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan SYNTHETIC, Ukuran 28X28X12, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/422-rh-619.jpg,Tas Ransel / Backpack Wanita - RH 619,Rp 121.400,RH 619,Baru
-Jual Tas Ransel / Backpack Wanita - RZ 009 Murah,tas-ransel-backpack-wanita-rz-009,"
+     </div><!--/category-tab-->",2017-10-16,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan ANILINE, Ukuran AS, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/365-rz-014.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rz-014-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rz-014-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rz-014-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rz-014-d.jpg,/,Tas Ransel / Backpack Casual Wanita - RZ 014,Rp 128.900,Rp 150.900,Rp 22.000,RZ 014,Baru
+Jual Tas Ransel / Backpack Casual Wanita - RH 671 Murah,tas-ransel-backpack-casual-wanita-rh-671,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -213,6 +243,7 @@ Jual Tas Ransel / Backpack Wanita - RZ 009 Murah,tas-ransel-backpack-wanita-rz-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -235,8 +266,17 @@ Jual Tas Ransel / Backpack Wanita - RZ 009 Murah,tas-ransel-backpack-wanita-rz-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel / Backpack Wanita - RZ 009 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : RZ 009<br/>Warna : HITAM KUNING<br/>Bahan : SYNTHETIC<br/>Ukuran : 30X33X12<br/>Berat : 0.72 kg<br>
+         <p>Tas Ransel / Backpack Casual Wanita - RH 671 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RH 671<br/>Warna : CREAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.6 kg<br/>Info Lainnya = 35 X 29 X 11<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -250,8 +290,8 @@ Jual Tas Ransel / Backpack Wanita - RZ 009 Murah,tas-ransel-backpack-wanita-rz-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan SYNTHETIC, Ukuran 30X33X12, Warna HITAM KUNING",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/423-rz-009.jpg,Tas Ransel / Backpack Wanita - RZ 009,Rp 112.900,RZ 009,Baru
-Jual Tas Ransel / Backpack Wanita - TP 025 Murah,tas-ransel-backpack-wanita-tp-025,"
+     </div><!--/category-tab-->",2017-10-16,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan SINTETIS, Ukuran AS, Warna CREAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/366-rh-671.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-671-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-671-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-671-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-671-d.jpg,/,Tas Ransel / Backpack Casual Wanita - RH 671,Rp 123.400,Rp 144.900,Rp 21.500,RH 671,Baru
+Jual Tas Ransel / Backpack Casual Wanita - MB 006 Murah,tas-ransel-backpack-casual-wanita-mb-006,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -276,6 +316,7 @@ Jual Tas Ransel / Backpack Wanita - TP 025 Murah,tas-ransel-backpack-wanita-tp-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -298,8 +339,17 @@ Jual Tas Ransel / Backpack Wanita - TP 025 Murah,tas-ransel-backpack-wanita-tp-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel / Backpack Wanita - TP 025 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : TP 025<br/>Warna : HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 30X37X8<br/>Berat : 0.72 kg<br>
+         <p>Tas Ransel / Backpack Casual Wanita - MB 006 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan CANVAS.<br/>Kode : MB 006<br/>Warna : CREAM BIRU<br/>Bahan : CANVAS<br/>Ukuran : AS<br/>Berat : 0.6 kg<br/>Info Lainnya = 28 X 45 X 17<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -313,8 +363,8 @@ Jual Tas Ransel / Backpack Wanita - TP 025 Murah,tas-ransel-backpack-wanita-tp-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan SYNTHETIC, Ukuran 30X37X8, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/461-tp-025.jpg,Tas Ransel / Backpack Wanita - TP 025,Rp 106.900,TP 025,Baru
-Jual Tas Ransel / Backpack Wanita - RH 637 Murah,tas-ransel-backpack-wanita-rh-637,"
+     </div><!--/category-tab-->",2017-10-16,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan CANVAS, Ukuran AS, Warna CREAM BIRU",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/367-mb-006.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/mb-006-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/mb-006-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/mb-006-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/mb-006-d.jpg,/,Tas Ransel / Backpack Casual Wanita - MB 006,Rp 133.400,Rp 156.900,Rp 23.500,MB 006,Baru
+Jual Tas Ransel / Backpack Casual Wanita - RH 624 Murah,tas-ransel-backpack-casual-wanita-rh-624,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -339,6 +389,7 @@ Jual Tas Ransel / Backpack Wanita - RH 637 Murah,tas-ransel-backpack-wanita-rh-6
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -361,8 +412,17 @@ Jual Tas Ransel / Backpack Wanita - RH 637 Murah,tas-ransel-backpack-wanita-rh-6
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel / Backpack Wanita - RH 637 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : RH 637<br/>Warna : CREAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 30X34X11<br/>Berat : 0.72 kg<br>
+         <p>Tas Ransel / Backpack Casual Wanita - RH 624 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan CANVAS.<br/>Kode : RH 624<br/>Warna : MERAH<br/>Bahan : CANVAS<br/>Ukuran : AS<br/>Berat : 0.6 kg<br/>Info Lainnya = 30 X 40 X 16<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -376,8 +436,8 @@ Jual Tas Ransel / Backpack Wanita - RH 637 Murah,tas-ransel-backpack-wanita-rh-6
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan SYNTHETIC, Ukuran 30X34X11, Warna CREAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/462-rh-637.jpg,Tas Ransel / Backpack Wanita - RH 637,Rp 139.900,RH 637,Baru
-Jual Tas Ransel / Backpack Wanita - TP 021 Murah,tas-ransel-backpack-wanita-tp-021,"
+     </div><!--/category-tab-->",2017-10-16,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan CANVAS, Ukuran AS, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/368-rh-624.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-624-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-624-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-624-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-624-d.jpg,/,Tas Ransel / Backpack Casual Wanita - RH 624,Rp 148.900,Rp 174.900,Rp 26.000,RH 624,Baru
+Jual Tas Ransel / Backpack Casual Wanita - TP 021 Murah,tas-ransel-backpack-casual-wanita-tp-021,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -402,6 +462,7 @@ Jual Tas Ransel / Backpack Wanita - TP 021 Murah,tas-ransel-backpack-wanita-tp-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -424,8 +485,17 @@ Jual Tas Ransel / Backpack Wanita - TP 021 Murah,tas-ransel-backpack-wanita-tp-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel / Backpack Wanita - TP 021 dengan bahan CANVAS ini dijamin awet.<br/>Kode : TP 021<br/>Warna : CREAM<br/>Bahan : CANVAS<br/>Ukuran : 28X40X12<br/>Berat : 0.72 kg<br>
+         <p>Tas Ransel / Backpack Casual Wanita - TP 021 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan CANVAS.<br/>Kode : TP 021<br/>Warna : PUTIH KOMBINASI<br/>Bahan : CANVAS<br/>Ukuran : AS<br/>Berat : 0.6 kg<br/>Info Lainnya = 28 X 40 X 12<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -439,8 +509,8 @@ Jual Tas Ransel / Backpack Wanita - TP 021 Murah,tas-ransel-backpack-wanita-tp-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan CANVAS, Ukuran 28X40X12, Warna CREAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/463-tp-021.jpg,Tas Ransel / Backpack Wanita - TP 021,Rp 117.400,TP 021,Baru
-Jual Tas Ransel / Backpack Wanita - MB 006 Murah,tas-ransel-backpack-wanita-mb-006,"
+     </div><!--/category-tab-->",2017-10-16,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan CANVAS, Ukuran AS, Warna PUTIH KOMBINASI",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/369-tp-021.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tp-021-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tp-021-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tp-021-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tp-021-d.jpg,/,Tas Ransel / Backpack Casual Wanita - TP 021,Rp 117.400,Rp 137.900,Rp 20.500,TP 021,Baru
+Jual Tas Ransel / Backpack Casual Wanita - RH 619 Murah,tas-ransel-backpack-casual-wanita-rh-619,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -465,6 +535,7 @@ Jual Tas Ransel / Backpack Wanita - MB 006 Murah,tas-ransel-backpack-wanita-mb-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -487,8 +558,17 @@ Jual Tas Ransel / Backpack Wanita - MB 006 Murah,tas-ransel-backpack-wanita-mb-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel / Backpack Wanita - MB 006 dengan bahan CANVAS ini dijamin awet.<br/>Kode : MB 006<br/>Warna : CREAM BIRU<br/>Bahan : CANVAS<br/>Ukuran : 28X45X17<br/>Berat : 0.72 kg<br>
+         <p>Tas Ransel / Backpack Casual Wanita - RH 619 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan DOLBY.<br/>Kode : RH 619<br/>Warna : HITAM<br/>Bahan : DOLBY<br/>Ukuran : AS<br/>Berat : 0.6 kg<br/>Info Lainnya = 28 X 28 X 12<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -502,8 +582,8 @@ Jual Tas Ransel / Backpack Wanita - MB 006 Murah,tas-ransel-backpack-wanita-mb-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan CANVAS, Ukuran 28X45X17, Warna CREAM BIRU",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/464-mb-006.jpg,Tas Ransel / Backpack Wanita - MB 006,Rp 133.400,MB 006,Baru
-Jual Tas Ransel / Backpack Wanita - RH 624 Murah,tas-ransel-backpack-wanita-rh-624,"
+     </div><!--/category-tab-->",2017-10-16,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan DOLBY, Ukuran AS, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/370-rh-619.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-619-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-619-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-619-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-619-d.jpg,/,Tas Ransel / Backpack Casual Wanita - RH 619,Rp 121.400,Rp 142.900,Rp 21.500,RH 619,Baru
+Jual Tas Ransel / Backpack Casual Wanita - RH 637 Murah,tas-ransel-backpack-casual-wanita-rh-637,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -528,6 +608,7 @@ Jual Tas Ransel / Backpack Wanita - RH 624 Murah,tas-ransel-backpack-wanita-rh-6
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -550,8 +631,17 @@ Jual Tas Ransel / Backpack Wanita - RH 624 Murah,tas-ransel-backpack-wanita-rh-6
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel / Backpack Wanita - RH 624 dengan bahan CANVAS ini dijamin awet.<br/>Kode : RH 624<br/>Warna : MERAH<br/>Bahan : CANVAS<br/>Ukuran : 30X40X16<br/>Berat : 0.72 kg<br>
+         <p>Tas Ransel / Backpack Casual Wanita - RH 637 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RH 637<br/>Warna : CREAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.6 kg<br/>Info Lainnya = 30 X 34 X 11, BAHAN : PIROTEX<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -565,8 +655,8 @@ Jual Tas Ransel / Backpack Wanita - RH 624 Murah,tas-ransel-backpack-wanita-rh-6
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan CANVAS, Ukuran 30X40X16, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/465-rh-624.jpg,Tas Ransel / Backpack Wanita - RH 624,Rp 148.900,RH 624,Baru
-Jual Tas Ransel / Backpack Wanita - MB 009 Murah,tas-ransel-backpack-wanita-mb-009,"
+     </div><!--/category-tab-->",2017-10-16,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan SINTETIS, Ukuran AS, Warna CREAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/371-rh-637.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-637-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-637-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-637-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rh-637-d.jpg,/,Tas Ransel / Backpack Casual Wanita - RH 637,Rp 139.900,Rp 163.900,Rp 24.000,RH 637,Baru
+Jual Tas Ransel / Backpack Casual Wanita - MY 036 Murah,tas-ransel-backpack-casual-wanita-my-036,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -591,6 +681,7 @@ Jual Tas Ransel / Backpack Wanita - MB 009 Murah,tas-ransel-backpack-wanita-mb-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -613,8 +704,17 @@ Jual Tas Ransel / Backpack Wanita - MB 009 Murah,tas-ransel-backpack-wanita-mb-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel / Backpack Wanita - MB 009 dengan bahan CANVAS ini dijamin awet.<br/>Kode : MB 009<br/>Warna : BIRU<br/>Bahan : CANVAS<br/>Ukuran : 31X44X16<br/>Berat : 0.72 kg<br>
+         <p>Tas Ransel / Backpack Casual Wanita - MY 036 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan DENIM.<br/>Kode : MY 036<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : AS<br/>Berat : 0.6 kg<br/>Info Lainnya = 30 X 36 X 10<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -628,8 +728,8 @@ Jual Tas Ransel / Backpack Wanita - MB 009 Murah,tas-ransel-backpack-wanita-mb-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan CANVAS, Ukuran 31X44X16, Warna BIRU",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/466-mb-009.jpg,Tas Ransel / Backpack Wanita - MB 009,Rp 147.400,MB 009,Baru
-Jual Tas Ransel / Backpack Wanita - ST 046 Murah,tas-ransel-backpack-wanita-st-046,"
+     </div><!--/category-tab-->",2017-10-16,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan DENIM, Ukuran AS, Warna BIRU",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/372-my-036.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/my-036-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/my-036-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/my-036-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/my-036-d.jpg,/,Tas Ransel / Backpack Casual Wanita - MY 036,Rp 159.400,Rp 186.900,Rp 27.500,MY 036,Baru
+Jual Tas Ransel / Backpack Casual Wanita - RZ 009 Murah,tas-ransel-backpack-casual-wanita-rz-009,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -654,6 +754,7 @@ Jual Tas Ransel / Backpack Wanita - ST 046 Murah,tas-ransel-backpack-wanita-st-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -676,8 +777,17 @@ Jual Tas Ransel / Backpack Wanita - ST 046 Murah,tas-ransel-backpack-wanita-st-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel / Backpack Wanita - ST 046 dengan bahan CANVAS ini dijamin awet.<br/>Kode : ST 046<br/>Warna : MERAH<br/>Bahan : CANVAS<br/>Ukuran : 27X40X14<br/>Berat : 0.72 kg<br>
+         <p>Tas Ransel / Backpack Casual Wanita - RZ 009 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RZ 009<br/>Warna : HITAM KUNING<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.6 kg<br/>Info Lainnya = 30 X 33 X 12<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -691,8 +801,8 @@ Jual Tas Ransel / Backpack Wanita - ST 046 Murah,tas-ransel-backpack-wanita-st-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan CANVAS, Ukuran 27X40X14, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/467-st-046.jpg,Tas Ransel / Backpack Wanita - ST 046,Rp 117.400,ST 046,Baru
-Jual Tas Ransel / Backpack Wanita - MB 008 Murah,tas-ransel-backpack-wanita-mb-008,"
+     </div><!--/category-tab-->",2017-10-16,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan SINTETIS, Ukuran AS, Warna HITAM KUNING",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/373-rz-009.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rz-009-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rz-009-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rz-009-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rz-009-d.jpg,/,Tas Ransel / Backpack Casual Wanita - RZ 009,Rp 112.900,Rp 132.900,Rp 20.000,RZ 009,Baru
+Jual Tas Ransel / Backpack Casual Wanita - KH 014 Murah,tas-ransel-backpack-casual-wanita-kh-014,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -717,6 +827,7 @@ Jual Tas Ransel / Backpack Wanita - MB 008 Murah,tas-ransel-backpack-wanita-mb-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -739,8 +850,17 @@ Jual Tas Ransel / Backpack Wanita - MB 008 Murah,tas-ransel-backpack-wanita-mb-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel / Backpack Wanita - MB 008 dengan bahan CANVAS ini dijamin awet.<br/>Kode : MB 008<br/>Warna : PUTIH<br/>Bahan : CANVAS<br/>Ukuran : 31X44X16<br/>Berat : 0.72 kg<br>
+         <p>Tas Ransel / Backpack Casual Wanita - KH 014 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan DENIM.<br/>Kode : KH 014<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : AS<br/>Berat : 0.6 kg<br/>Info Lainnya = 38 X 30 X 10<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -754,8 +874,8 @@ Jual Tas Ransel / Backpack Wanita - MB 008 Murah,tas-ransel-backpack-wanita-mb-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan CANVAS, Ukuran 31X44X16, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/468-mb-008.jpg,Tas Ransel / Backpack Wanita - MB 008,Rp 136.900,MB 008,Baru
-Jual Tas Backpack / Ransel Wanita - RFG 015 Murah,tas-backpack-ransel-wanita-rfg-015,"
+     </div><!--/category-tab-->",2017-10-16,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan DENIM, Ukuran AS, Warna BIRU",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/374-kh-014.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/kh-014-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/kh-014-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/kh-014-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/kh-014-d.jpg,/,Tas Ransel / Backpack Casual Wanita - KH 014,Rp 169.900,Rp 198.900,Rp 29.000,KH 014,Baru
+Jual Tas Ransel / Backpack Casual Wanita - KH 009 Murah,tas-ransel-backpack-casual-wanita-kh-009,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -780,6 +900,7 @@ Jual Tas Backpack / Ransel Wanita - RFG 015 Murah,tas-backpack-ransel-wanita-rfg
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -802,8 +923,17 @@ Jual Tas Backpack / Ransel Wanita - RFG 015 Murah,tas-backpack-ransel-wanita-rfg
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Backpack / Ransel Wanita - RFG 015 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RFG 015<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 24x11x21CM<br/>Berat : 0.6 kg<br>
+         <p>Tas Ransel / Backpack Casual Wanita - KH 009 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : KH 009<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.6 kg<br/>Info Lainnya = 22 X 28 X 9<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -817,8 +947,8 @@ Jual Tas Backpack / Ransel Wanita - RFG 015 Murah,tas-backpack-ransel-wanita-rfg
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan SINTETIS, Ukuran 24x11x21CM, Warna PINK",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/450-rfg-015.jpg,Tas Backpack / Ransel Wanita - RFG 015,Rp 103.900,RFG 015,Baru
-Jual Tas Backpack / Ransel Motif Batik Wanita - RRH 655 Murah,tas-backpack-ransel-motif-batik-wanita-rrh-655,"
+     </div><!--/category-tab-->",2017-10-16,html,tas-ransel-wanita,catenzo,tas-ransel-wanita,catenzo,"Tas Ransel Wanita Bahan SINTETIS, Ukuran AS, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/375-kh-009.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/kh-009-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/kh-009-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/kh-009-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/kh-009-d.jpg,/,Tas Ransel / Backpack Casual Wanita - KH 009,Rp 112.900,Rp 132.900,Rp 20.000,KH 009,Baru
+Jual Tas Backpack Sling 3 in 1 Wanita - RFG 030 Murah,tas-backpack-sling-3-in-1-wanita-rfg-030,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -843,6 +973,7 @@ Jual Tas Backpack / Ransel Motif Batik Wanita - RRH 655 Murah,tas-backpack-ranse
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -865,8 +996,17 @@ Jual Tas Backpack / Ransel Motif Batik Wanita - RRH 655 Murah,tas-backpack-ranse
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Backpack / Ransel Motif Batik Wanita - RRH 655 dengan bahan DENIM ini dijamin awet.<br/>Kode : RRH 655<br/>Warna : BIRU KOMBINASI<br/>Bahan : DENIM<br/>Ukuran : 31X8X35CM<br/>Berat : 0.6 kg<br>
+         <p>Tas Backpack Sling 3 in 1 Wanita - RFG 030 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RFG 030<br/>Warna : TAN<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 1.1 kg<br/>Info Lainnya = 26 X 16 X 30<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -880,8 +1020,8 @@ Jual Tas Backpack / Ransel Motif Batik Wanita - RRH 655 Murah,tas-backpack-ranse
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan DENIM, Ukuran 31X8X35CM, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/457-rrh-655.jpg,Tas Backpack / Ransel Motif Batik Wanita - RRH 655,Rp 146.400,RRH 655,Baru
-Jual Tas Backpack / Ransel Wanita - RMN 009 Murah,tas-backpack-ransel-wanita-rmn-009,"
+     </div><!--/category-tab-->",2017-10-17,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan SINTETIS, Ukuran AS, Warna TAN",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/414-rfg-030.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rfg-030-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rfg-030-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rfg-030-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rfg-030-d.jpg,/,Tas Backpack Sling 3 in 1 Wanita - RFG 030,Rp 106.400,Rp 124.900,Rp 18.500,RFG 030,Baru
+Jual Tas Backpack / Ransel Kasual Wanita - RRH 660 Murah,tas-backpack-ransel-kasual-wanita-rrh-660,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -906,6 +1046,7 @@ Jual Tas Backpack / Ransel Wanita - RMN 009 Murah,tas-backpack-ransel-wanita-rmn
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -928,8 +1069,17 @@ Jual Tas Backpack / Ransel Wanita - RMN 009 Murah,tas-backpack-ransel-wanita-rmn
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Backpack / Ransel Wanita - RMN 009 dengan bahan CANVAS ini dijamin awet.<br/>Kode : RMN 009<br/>Warna : HITAM KOMBINASI<br/>Bahan : CANVAS<br/>Ukuran : 21X10X29CM<br/>Berat : 0.6 kg<br>
+         <p>Tas Backpack / Ransel Kasual Wanita - RRH 660 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan CANVAS.<br/>Kode : RRH 660<br/>Warna : HITAM<br/>Bahan : CANVAS<br/>Ukuran : AS<br/>Berat : 0.65 kg<br/>Info Lainnya = 30X15X43<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -943,8 +1093,8 @@ Jual Tas Backpack / Ransel Wanita - RMN 009 Murah,tas-backpack-ransel-wanita-rmn
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan CANVAS, Ukuran 21X10X29CM, Warna HITAM KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/458-rmn-009.jpg,Tas Backpack / Ransel Wanita - RMN 009,Rp 117.400,RMN 009,Baru
-Jual Tas Backpack / Ransel Wanita - RRH 650 Murah,tas-backpack-ransel-wanita-rrh-650,"
+     </div><!--/category-tab-->",2017-10-17,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan CANVAS, Ukuran AS, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/415-rrh-660.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-660-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-660-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-660-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-660-d.jpg,/,Tas Backpack / Ransel Kasual Wanita - RRH 660,Rp 142.900,Rp 167.900,Rp 25.000,RRH 660,Baru
+Jual Tas Backpack / Ransel Kasual Wanita - RKB 002 Murah,tas-backpack-ransel-kasual-wanita-rkb-002,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -969,6 +1119,7 @@ Jual Tas Backpack / Ransel Wanita - RRH 650 Murah,tas-backpack-ransel-wanita-rrh
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -991,8 +1142,17 @@ Jual Tas Backpack / Ransel Wanita - RRH 650 Murah,tas-backpack-ransel-wanita-rrh
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Backpack / Ransel Wanita - RRH 650 dengan bahan PIROTEX ini dijamin awet.<br/>Kode : RRH 650<br/>Warna : HITAM<br/>Bahan : PIROTEX<br/>Ukuran : 33X11X30CM<br/>Berat : 0.6 kg<br>
+         <p>Tas Backpack / Ransel Kasual Wanita - RKB 002 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan DENIM.<br/>Kode : RKB 002<br/>Warna : BIRU KOMBINASI<br/>Bahan : DENIM<br/>Ukuran : AS<br/>Berat : 0.65 kg<br/>Info Lainnya = 25 X 14 X 34<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1006,8 +1166,8 @@ Jual Tas Backpack / Ransel Wanita - RRH 650 Murah,tas-backpack-ransel-wanita-rrh
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan PIROTEX, Ukuran 33X11X30CM, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/459-rrh-650.jpg,Tas Backpack / Ransel Wanita - RRH 650,Rp 135.400,RRH 650,Baru
-Jual Tas Backpack / Ransel Wanita - RRA 022 Murah,tas-backpack-ransel-wanita-rra-022,"
+     </div><!--/category-tab-->",2017-10-17,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan DENIM, Ukuran AS, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/416-rkb-002.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rkb-002-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rkb-002-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rkb-002-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rkb-002-d.jpg,/,Tas Backpack / Ransel Kasual Wanita - RKB 002,Rp 99.400,Rp 116.900,Rp 17.500,RKB 002,Baru
+Jual Tas Backpack / Ransel Kasual Wanita - RKB 001 Murah,tas-backpack-ransel-kasual-wanita-rkb-001,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1032,6 +1192,7 @@ Jual Tas Backpack / Ransel Wanita - RRA 022 Murah,tas-backpack-ransel-wanita-rra
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1054,8 +1215,17 @@ Jual Tas Backpack / Ransel Wanita - RRA 022 Murah,tas-backpack-ransel-wanita-rra
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Backpack / Ransel Wanita - RRA 022 dengan bahan PIROTEX ini dijamin awet.<br/>Kode : RRA 022<br/>Warna : HITAM KOMBINASI<br/>Bahan : PIROTEX<br/>Ukuran : 26X10X36CM<br/>Berat : 0.6 kg<br>
+         <p>Tas Backpack / Ransel Kasual Wanita - RKB 001 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan CANVAS.<br/>Kode : RKB 001<br/>Warna : HITAM<br/>Bahan : CANVAS<br/>Ukuran : AS<br/>Berat : 0.65 kg<br/>Info Lainnya = 27 X 34 X 12<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1069,8 +1239,8 @@ Jual Tas Backpack / Ransel Wanita - RRA 022 Murah,tas-backpack-ransel-wanita-rra
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan PIROTEX, Ukuran 26X10X36CM, Warna HITAM KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/460-rra-022.jpg,Tas Backpack / Ransel Wanita - RRA 022,Rp 145.900,RRA 022,Baru
-Jual Tas Backpack / Ransel Wanita - RCS 063 Murah,tas-backpack-ransel-wanita-rcs-063,"
+     </div><!--/category-tab-->",2017-10-17,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan CANVAS, Ukuran AS, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/417-rkb-001.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rkb-001-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rkb-001-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rkb-001-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rkb-001-d.jpg,/,Tas Backpack / Ransel Kasual Wanita - RKB 001,Rp 99.400,Rp 116.900,Rp 17.500,RKB 001,Baru
+Jual Tas Backpack / Ransel Kasual Wanita - RRH 017 Murah,tas-backpack-ransel-kasual-wanita-rrh-017,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1095,6 +1265,7 @@ Jual Tas Backpack / Ransel Wanita - RCS 063 Murah,tas-backpack-ransel-wanita-rcs
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1117,8 +1288,17 @@ Jual Tas Backpack / Ransel Wanita - RCS 063 Murah,tas-backpack-ransel-wanita-rcs
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Backpack / Ransel Wanita - RCS 063 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RCS 063<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 32X12X44CM<br/>Berat : 0.6 kg<br>
+         <p>Tas Backpack / Ransel Kasual Wanita - RRH 017 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan CANVAS.<br/>Kode : RRH 017<br/>Warna : CREAM<br/>Bahan : CANVAS<br/>Ukuran : AS<br/>Berat : 0.65 kg<br/>Info Lainnya = 27 X 13 X 39<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1132,8 +1312,8 @@ Jual Tas Backpack / Ransel Wanita - RCS 063 Murah,tas-backpack-ransel-wanita-rcs
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan SINTETIS, Ukuran 32X12X44CM, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/461-rcs-063.jpg,Tas Backpack / Ransel Wanita - RCS 063,Rp 110.400,RCS 063,Baru
-Jual Tas Backpack / Ransel Canvas Wanita - RMN 004 Murah,tas-backpack-ransel-canvas-wanita-rmn-004,"
+     </div><!--/category-tab-->",2017-10-17,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan CANVAS, Ukuran AS, Warna CREAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/418-rrh-017.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-017-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-017-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-017-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-017-d.jpg,/,Tas Backpack / Ransel Kasual Wanita - RRH 017,Rp 131.400,Rp 153.900,Rp 22.500,RRH 017,Baru
+Jual Tas Backpack / Ransel Kasual Wanita - RMN 004 Murah,tas-backpack-ransel-kasual-wanita-rmn-004,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1158,6 +1338,7 @@ Jual Tas Backpack / Ransel Canvas Wanita - RMN 004 Murah,tas-backpack-ransel-can
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1180,8 +1361,17 @@ Jual Tas Backpack / Ransel Canvas Wanita - RMN 004 Murah,tas-backpack-ransel-can
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Backpack / Ransel Canvas Wanita - RMN 004 dengan bahan CANVAS ini dijamin awet.<br/>Kode : RMN 004<br/>Warna : HITAM<br/>Bahan : CANVAS<br/>Ukuran : 29X9X33CM<br/>Berat : 0.6 kg<br>
+         <p>Tas Backpack / Ransel Kasual Wanita - RMN 004 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan CANVAS.<br/>Kode : RMN 004<br/>Warna : HITAM<br/>Bahan : CANVAS<br/>Ukuran : AS<br/>Berat : 0.65 kg<br/>Info Lainnya = 29 X 9 X 33<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1195,8 +1385,8 @@ Jual Tas Backpack / Ransel Canvas Wanita - RMN 004 Murah,tas-backpack-ransel-can
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan CANVAS, Ukuran 29X9X33CM, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/462-rmn-004.jpg,Tas Backpack / Ransel Canvas Wanita - RMN 004,Rp 123.900,RMN 004,Baru
-Jual Tas Backpack / Ransel Canvas Wanita - RMN 001 Murah,tas-backpack-ransel-canvas-wanita-rmn-001,"
+     </div><!--/category-tab-->",2017-10-17,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan CANVAS, Ukuran AS, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/419-rmn-004.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rmn-004-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rmn-004-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rmn-004-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rmn-004-d.jpg,/,Tas Backpack / Ransel Kasual Wanita - RMN 004,Rp 123.900,Rp 144.900,Rp 21.000,RMN 004,Baru
+Jual Tas Backpack / Ransel Kasual Wanita - RSY 089 Murah,tas-backpack-ransel-kasual-wanita-rsy-089,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1221,6 +1411,7 @@ Jual Tas Backpack / Ransel Canvas Wanita - RMN 001 Murah,tas-backpack-ransel-can
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1243,8 +1434,17 @@ Jual Tas Backpack / Ransel Canvas Wanita - RMN 001 Murah,tas-backpack-ransel-can
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Backpack / Ransel Canvas Wanita - RMN 001 dengan bahan CANVAS ini dijamin awet.<br/>Kode : RMN 001<br/>Warna : HITAM<br/>Bahan : CANVAS<br/>Ukuran : 29X17X44CM<br/>Berat : 0.6 kg<br>
+         <p>Tas Backpack / Ransel Kasual Wanita - RSY 089 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan CANVAS.<br/>Kode : RSY 089<br/>Warna : OLIP<br/>Bahan : CANVAS<br/>Ukuran : AS<br/>Berat : 0.65 kg<br/>Info Lainnya = 26 X 16 X 38<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1258,8 +1458,8 @@ Jual Tas Backpack / Ransel Canvas Wanita - RMN 001 Murah,tas-backpack-ransel-can
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan CANVAS, Ukuran 29X17X44CM, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/463-rmn-001.jpg,Tas Backpack / Ransel Canvas Wanita - RMN 001,Rp 120.900,RMN 001,Baru
-Jual Tas Backpack / Ransel Canvas Wanita - RRH 017 Murah,tas-backpack-ransel-canvas-wanita-rrh-017,"
+     </div><!--/category-tab-->",2017-10-17,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan CANVAS, Ukuran AS, Warna OLIP",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/420-rsy-089.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rsy-089-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rsy-089-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rsy-089-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rsy-089-d.jpg,/,Tas Backpack / Ransel Kasual Wanita - RSY 089,Rp 113.900,Rp 133.900,Rp 20.000,RSY 089,Baru
+Jual Tas Backpack / Ransel Kasual Wanita - RRH 655 Murah,tas-backpack-ransel-kasual-wanita-rrh-655,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1284,6 +1484,7 @@ Jual Tas Backpack / Ransel Canvas Wanita - RRH 017 Murah,tas-backpack-ransel-can
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1306,8 +1507,17 @@ Jual Tas Backpack / Ransel Canvas Wanita - RRH 017 Murah,tas-backpack-ransel-can
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Tas Ransel Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Backpack / Ransel Canvas Wanita - RRH 017 dengan bahan CANVAS ini dijamin awet.<br/>Kode : RRH 017<br/>Warna : CREAM<br/>Bahan : CANVAS<br/>Ukuran : 27X13X39CM<br/>Berat : 0.6 kg<br>
+         <p>Tas Backpack / Ransel Kasual Wanita - RRH 655 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan DENIM.<br/>Kode : RRH 655<br/>Warna : BIRU KOMBINASI<br/>Bahan : DENIM<br/>Ukuran : AS<br/>Berat : 0.65 kg<br/>Info Lainnya = 31 X 8 X 35<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1321,4 +1531,369 @@ Jual Tas Backpack / Ransel Canvas Wanita - RRH 017 Murah,tas-backpack-ransel-can
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan CANVAS, Ukuran 27X13X39CM, Warna CREAM",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/464-rrh-017.jpg,Tas Backpack / Ransel Canvas Wanita - RRH 017,Rp 131.400,RRH 017,Baru
+     </div><!--/category-tab-->",2017-10-17,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan DENIM, Ukuran AS, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/421-rrh-655.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-655-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-655-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-655-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-655-d.jpg,/,Tas Backpack / Ransel Kasual Wanita - RRH 655,Rp 146.400,Rp 171.900,Rp 25.500,RRH 655,Baru
+Jual Tas Backpack / Ransel Kasual Wanita - RFG 015 Murah,tas-backpack-ransel-kasual-wanita-rfg-015,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
+          <script type=""text/javascript"">
+          <!--
+          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
+          //-->
+          </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include buy.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Tas Backpack / Ransel Kasual Wanita - RFG 015 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RFG 015<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.65 kg<br/>Info Lainnya = 24 X 11 X 21<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include share.html %}
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2017-10-17,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan SINTETIS, Ukuran AS, Warna PINK",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/422-rfg-015.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rfg-015-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rfg-015-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rfg-015-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rfg-015-d.jpg,/,Tas Backpack / Ransel Kasual Wanita - RFG 015,Rp 103.900,Rp 121.900,Rp 18.000,RFG 015,Baru
+Jual Tas Backpack / Ransel Kasual Wanita - RMY 337 Murah,tas-backpack-ransel-kasual-wanita-rmy-337,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
+          <script type=""text/javascript"">
+          <!--
+          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
+          //-->
+          </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include buy.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Tas Backpack / Ransel Kasual Wanita - RMY 337 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RMY 337<br/>Warna : CREAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.65 kg<br/>Info Lainnya = 23 X 12 X 26<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include share.html %}
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2017-10-17,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan SINTETIS, Ukuran AS, Warna CREAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/423-rmy-337.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rmy-337-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rmy-337-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rmy-337-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rmy-337-d.jpg,/,Tas Backpack / Ransel Kasual Wanita - RMY 337,Rp 99.400,Rp 116.900,Rp 17.500,RMY 337,Baru
+Jual Tas Backpack / Ransel Kasual Wanita - RRH 663 Murah,tas-backpack-ransel-kasual-wanita-rrh-663,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
+          <script type=""text/javascript"">
+          <!--
+          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
+          //-->
+          </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include buy.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Tas Backpack / Ransel Kasual Wanita - RRH 663 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RRH 663<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.65 kg<br/>Info Lainnya = 29 X 14 X 34<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include share.html %}
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2017-10-17,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan SINTETIS, Ukuran AS, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/424-rrh-663.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-663-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-663-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-663-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrh-663-d.jpg,/,Tas Backpack / Ransel Kasual Wanita - RRH 663,Rp 136.900,Rp 160.900,Rp 24.000,RRH 663,Baru
+Jual Tas Backpack / Ransel Kasual Wanita - RCS 063 Murah,tas-backpack-ransel-kasual-wanita-rcs-063,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
+          <script type=""text/javascript"">
+          <!--
+          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
+          //-->
+          </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include buy.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Tas Backpack / Ransel Kasual Wanita - RCS 063 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RCS 063<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.65 kg<br/>Info Lainnya = 32 X 12 X 44<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include share.html %}
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2017-10-17,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan SINTETIS, Ukuran AS, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/425-rcs-063.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rcs-063-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rcs-063-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rcs-063-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rcs-063-d.jpg,/,Tas Backpack / Ransel Kasual Wanita - RCS 063,Rp 110.400,Rp 129.900,Rp 19.500,RCS 063,Baru
+Jual Tas Backpack / Ransel Kasual Wanita - RAI 008 Murah,tas-backpack-ransel-kasual-wanita-rai-008,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
+          <script type=""text/javascript"">
+          <!--
+          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
+          //-->
+          </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include buy.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Tas Backpack / Ransel Kasual Wanita - RAI 008 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Tas Ransel Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RAI 008<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.65 kg<br/>Info Lainnya = 29 X 11 X 34<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include share.html %}
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2017-10-17,html,tas-ransel-wanita,raindoz,tas-ransel-wanita,raindoz,"Tas Ransel Wanita Bahan SINTETIS, Ukuran AS, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/426-rai-008.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rai-008-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rai-008-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rai-008-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rai-008-d.jpg,/,Tas Backpack / Ransel Kasual Wanita - RAI 008,Rp 120.900,Rp 141.900,Rp 21.000,RAI 008,Baru
